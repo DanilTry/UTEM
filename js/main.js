@@ -1,0 +1,73 @@
+window.onscroll = function showHeader(){
+  var header = document.querySelector('.header')
+  const textlogo = document.querySelector('.text-logo')
+  const menulink = document.querySelector('.menu__link')
+  const linkmenu = document.querySelector('.menu-link2')
+  const linkmenu3 = document.querySelector('.menu-link3')
+  const linkmenu4 = document.querySelector('.menu-link4')
+  const linkmenu5 = document.querySelector('.menu-link5')
+  const subheader = document.querySelector('.subheader')
+  const contactinfo = document.querySelector('.contact-info')
+  const iconlogo = document.querySelector('.icon-logo')
+  const blacklogo = document.querySelector('.black-logo')
+  const loca =document.querySelector('.location-info')
+  const phone = document.querySelector('.phone-info')
+  const mail = document.querySelector('.mail-info')
+  const searchwhite = document.querySelector('.search-white')
+  const searchblack = document.querySelector('.search-black')
+  const textstat = document.querySelector('.text-stat')
+  const textstat2 = document.querySelector('.text-stat2')
+  const textstat3 = document.querySelector('.text-stat3')
+  const textstat4 = document.querySelector('.text-stat4')
+
+
+  if(window.pageYOffset > 1){
+    header.classList.add("header__fixed")
+    subheader.classList.add('subeader__active')
+    contactinfo.classList.add('contact-info__active')
+    textlogo.classList.add('text-logo__active')
+    menulink.classList.add('menu__link__active')
+    linkmenu.classList.add('menu-link__active')
+    linkmenu3.classList.add('menu-link__active')
+    linkmenu4.classList.add('menu-link__active')
+    linkmenu5.classList.add('menu-link__active')
+    iconlogo.classList.add('icon-logo__active')
+    blacklogo.classList.add('black-logo__active')
+    loca.classList.add('location-info__active')
+    phone.classList.add('phone-info__active')
+    mail.classList.add('mail-info__active')
+    searchwhite.classList.add('search-white__active')
+    searchblack.classList.add('search-black__active')
+    textstat.classList.add('text-stat__active')
+    textstat2.classList.add('text-stat2__active')
+    textstat3.classList.add('text-stat3__active')
+    textstat4.classList.add('text-stat4__active')
+  }
+  else{
+    header.classList.remove("header__fixed")
+    subheader.classList.remove('subeader__active')
+    contactinfo.classList.remove('contact-info__active')
+    iconlogo.classList.remove('icon-logo__active')
+    blacklogo.classList.remove('black-logo__active')
+
+    textlogo.classList.remove('text-logo__active')
+    menulink.classList.remove('menu__link__active')
+    linkmenu.classList.remove('menu-link__active')
+    linkmenu3.classList.remove('menu-link__active')
+    linkmenu4.classList.remove('menu-link__active')
+    linkmenu5.classList.remove('menu-link__active')
+    loca.classList.remove('location-info__active')
+    phone.classList.remove('phone-info__active')
+    mail.classList.remove('mail-info__active')
+    searchwhite.classList.remove('search-white__active')
+    searchblack.classList.remove('search-black__active')
+    textstat.classList.remove('text-stat__active')
+    textstat2.classList.remove('text-stat2__active')
+    textstat3.classList.remove('text-stat3__active')
+    textstat4.classList.remove('text-stat4__active')
+  }
+}
+
+
+
+
