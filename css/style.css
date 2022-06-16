@@ -97,7 +97,7 @@ main{
 }
 
 .location-info{ 
-    background: url(UTEM/IMG/header/loca-white.png) no-repeat left center;
+    background: url(/UTEM/IMG/header/loca-white.png) no-repeat left center;
     background-size: 16px;
     padding-top: 2px;
     display: inline-block;
